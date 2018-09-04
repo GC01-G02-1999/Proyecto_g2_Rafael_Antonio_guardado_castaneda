@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor1{
+    background-color: rgba(56, 160, 230, 0.61);
+   width: 97%;
+   height: 100px;
+   margin: auto auto;
+   border-radius: 0.8%;
+
+}
+header{
+       width: 97%;
+   height: 97%;
+    border-top-left-radius: 0.8%;
+    border-top-right-radius: 0.8%;
+    border-bottom: none;
+    margin-top: 2%;
+
+}
+nav{
+    height: 80%;
+    text-align: center;
+   background-color: rgba(223, 26, 26, 0.938);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(203, 216, 27);
+   padding: 0 auto;
+    
+}
+a{
+    text-decoration: none;
+    background-color: none; 
+    color: rgb(57, 211, 108)
+}
+#logo1, #logo2{
+    display: inline-block;
+    line-height: 400%; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#menu .submenu{
+    display: inline-block;
+    text-decoration: rgb(214, 125, 15);
+    text-align: center;
+    padding: 0 auto;
+    width: 100% !important;
+    line-height: 80%;
+}
+#cuerpo01{
+    background-color: rgb(181, 181, 218);
+    width: 99%;
+    margin: 0 auto;
+  height:350%;
+}
+article{
+    width: 70%;
+    background: none;
+    float: left;
+    height:450%;
+    background-color: aqua;
+}
+#img{
+    margin-top: 1%;
+    float: left;
+    margin-left: 1.5%;
+}
+#img1{
+    margin-top: 1%;
+    float: right;
+    margin-left: 1.5%;
+}
+#seccion1{
+    float: left;
+    background-color:none;
+    
+} 
+#section1 , #section2{
+    width: 50%;
+}
