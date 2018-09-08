@@ -1,9 +1,17 @@
+@font-face{
+    font-family:tangerine;
+    src:url(fuentes/tangerine.ttf); 
+    }
+    
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: auto;
 }
 #contenedor1{
-    background-color: rgba(56, 160, 230, 0.61);
+    margin-top: 50%;
    width: 97%;
    height: 100px;
    margin: auto auto;
@@ -11,27 +19,39 @@
 
 }
 header{
-       width: 97%;
+       width: 100%;
    height: 97%;
-    border-top-left-radius: 0.8%;
-    border-top-right-radius: 0.8%;
     border-bottom: none;
-    margin-top: 2%;
-
+    margin-top: 0.5%;
+   text-align: center;
+   font-size: 50px;
+   background-color: rgb(25, 129, 129);
+   font-family:tangerine;
 }
 nav{
+   display: inline-block;
     height: 80%;
-    text-align: center;
-   background-color: rgba(223, 26, 26, 0.938);
+   text-align: center;
+   width: 100%;
+   background-color: #68B0AB;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   color: rgb(203, 216, 27);
+   color: rgb(11, 5, 24);
    padding: 0 auto;
-    
+ 
 }
 a{
     text-decoration: none;
     background-color: none; 
-    color: rgb(57, 211, 108)
+    color: rgb(34, 194, 87)
+}
+aside{
+    width: 30%;
+    background-color:  #333;
+    float: right;
+    height: 100%;
+    text-align: center;
+    height: 800%;
+    color: white;
 }
 #logo1, #logo2{
     display: inline-block;
@@ -40,42 +60,213 @@ a{
     margin-right: 20%;
 }
 
-#menu .submenu{
-    display: inline-block;
-    text-decoration: rgb(214, 125, 15);
+#menu {
     text-align: center;
     padding: 0 auto;
-    width: 100% !important;
-    line-height: 80%;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
 }
+
 #cuerpo01{
-    background-color: rgb(181, 181, 218);
-    width: 99%;
+    background-color: rgb(21, 21, 102);
+    width: 100%;
     margin: 0 auto;
-  height:350%;
+  height:auto;
 }
 article{
     width: 70%;
     background: none;
     float: left;
-    height:450%;
-    background-color: aqua;
+    height:0 auto;
+    background-color: rgb(25, 129, 129);
 }
+article #new{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
 #img{
-    margin-top: 1%;
+  
     float: left;
     margin-left: 1.5%;
 }
 #img1{
-    margin-top: 1%;
+   
     float: right;
-    margin-left: 1.5%;
+    margin-right: 1.5%;
 }
 #seccion1{
     float: left;
     background-color:none;
     
 } 
-#section1 , #section2{
+#seccion1 , #seccion2{
     width: 50%;
 }
+.hovered:hover{
+    color: rgb(248, 128, 16);
+    height: 100%;
+    width: 100px;
+}
+#pie01{
+    height: 150px;
+    background-color: rgba(7, 168, 101, 0.644);
+    clear: both;
+    line-height: 50px;
+    width: 96%;
+    margin-left: 1.5%;
+ 
+}
+.parrafo{
+    width: 90%;
+    text-align: justify;
+    background-color: none;
+    margin: 0 auto;      
+
+}
+#img01{
+    margin-top: 1%;
+    
+    margin-left: 10%;
+}
+#seccion1 , #seccion2{
+    width: 50%;
+}
+#seccion1{
+    float: left;
+    background-color:none;
+    
+} 
+#seccion2{
+    float: right;
+    background-color: none;
+}
+.seccion1 , .seccion2{
+    width: 50%;
+}
+.seccion1{
+    float: left;
+    background-color:none;
+    
+} 
+.seccion2{
+    float: right;
+    background-color: none;
+}
+.tops{
+    text-decoration: none;
+    list-style:none;
+    height: 80px;
+    background-color: rgb(25, 129, 129);
+    text-align: center;
+    margin-top: 5px;
+    line-height: 43px;
+ 
+
+}
+
+.NavFixed {
+    position: fixed;
+    top: 0;
+    width: 89.99%;
+    background: rgba(41, 38, 38, 0.973);
+    color: rgb(138, 43, 43) !important;
+    z-index: 100px;
+    border: none;
+    box-shadow:  2px 2px 1px #999;
+  }
+  .NavFixed a{
+    color: rgb(240, 238, 245) !important;
+    
+  } 
+
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .NavFixed + .content {
+    padding-top: 60px;
+    
+  }
+
+  h2{
+    width: 90%;
+    margin: 0 auto;     
+}
+#Categorias{
+    margin-top:10px;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.pie_cls{
+    width: 35%;
+    float: left;
+    background-color:  rgba(26, 48, 95, 0.459);
+    text-align: center;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+#pie_cls_3{
+  width: 30% !important;
+}
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+ 
+
+
+	#main-header a {
+		color: white;
+	}
+
+
+
+#main-header {
+	background: #333;
+	color: white;
+    height: 80px;
+    width: 100%;
+}	
+	
+ 
+
+
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+                }/*
+                #main-header {
+                    
+                    background: #333;
+                    color: white;
+                    height: 80px;
+                    width: 100%; /hacemos que la cabecera ocupe el ancho completo de la página 
+                    left: 0; Posicionamos la cabecera al lado izquierdo 
+                    top: 0; Posicionamos la cabecera pegada arriba 
+                    position: fixed; Hacemos que la cabecera tenga una posición fija 
+                }
